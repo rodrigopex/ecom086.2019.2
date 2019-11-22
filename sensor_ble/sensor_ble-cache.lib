@@ -123,6 +123,36 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Sensor_BME280
 #
 DEF Sensor_BME280 U 0 20 Y Y 1 F N
@@ -221,6 +251,7 @@ X P0.01/XL2 3 -950 150 100 R 50 50 1 1 P
 X DEC4 30 -150 1000 100 D 50 50 1 1 P
 X DCC 31 -250 1000 100 D 50 50 1 1 P
 X VDD 32 -350 1000 100 D 50 50 1 1 P
+X PAD 33 -450 1000 100 D 50 50 1 1 P
 X P0.04/AIN2 4 -950 50 100 R 50 50 1 1 P
 X P0.05/AIN3 5 -950 -50 100 R 50 50 1 1 P
 X P0.06 6 -950 -150 100 R 50 50 1 1 P
