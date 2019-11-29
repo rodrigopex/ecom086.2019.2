@@ -1,4 +1,4 @@
-update=sex 22 nov 2019 18:48:18 -03
+update=sex 29 nov 2019 10:34:24 -03
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=ANT
+Clearance=0.1524
+TrackWidth=1
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.1524
 TrackWidth=0.3048
