@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/rodrigopex/MEGA/UFAL/disciplinas/PCB Design/ecom086.2019.2/sensor_ble/sensor_ble.sch")
-    (date "sex 29 nov 2019 10:13:46 -03")
+    (date "sex 29 nov 2019 11:41:50 -03")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -197,13 +197,6 @@
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DE3894B))
-    (comp (ref H2)
-      (value MountingHole)
-      (footprint MountingHole:MountingHole_2mm)
-      (datasheet ~)
-      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 5DE39090))
     (comp (ref U1)
       (value Nrf52810-QCAA)
       (footprint Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm)

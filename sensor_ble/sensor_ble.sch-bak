@@ -178,7 +178,8 @@ P 3400 5800
 F 0 "C5" H 3492 5846 50  0000 L CNN
 F 1 "100nF" H 3492 5755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 5800 50  0001 C CNN
-F 3 "~" H 3400 5800 50  0001 C CNN
+F 3 "https://br.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3400 5800 50  0001 C CNN
+F 4 "GCM155L8EH104KE07D" H 3400 5800 50  0001 C CNN "Part Number"
 	1    3400 5800
 	1    0    0    -1  
 $EndComp
@@ -369,6 +370,7 @@ F 0 "C3" H 2742 3796 50  0000 L CNN
 F 1 "100nF" H 2742 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2650 3750 50  0001 C CNN
 F 3 "~" H 2650 3750 50  0001 C CNN
+F 4 "GCM155L8EH104KE07D" H 2650 3750 50  0001 C CNN "Part Number"
 	1    2650 3750
 	1    0    0    -1  
 $EndComp
@@ -480,7 +482,8 @@ P 6450 3250
 F 0 "C9" V 6350 3250 50  0000 C CNN
 F 1 "12pF" V 6550 3250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 3250 50  0001 C CNN
-F 3 "~" H 6450 3250 50  0001 C CNN
+F 3 "https://br.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" H 6450 3250 50  0001 C CNN
+F 4 "CC0402GRNPO9BN120" H 6450 3250 50  0001 C CNN "Part Number"
 	1    6450 3250
 	0    1    1    0   
 $EndComp
@@ -498,6 +501,7 @@ F 0 "U2" H 9021 2946 50  0000 R CNN
 F 1 "BME280" H 9021 2855 50  0000 R CNN
 F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 10950 2450 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 9450 2700 50  0001 C CNN
+F 4 "BME280" H 9450 2900 50  0001 C CNN "Part Number"
 	1    9450 2900
 	1    0    0    -1  
 $EndComp
@@ -547,6 +551,7 @@ F 0 "C14" H 10092 2096 50  0000 L CNN
 F 1 "100nF" H 10092 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 2050 50  0001 C CNN
 F 3 "~" H 10000 2050 50  0001 C CNN
+F 4 "GCM155L8EH104KE07D" H 10000 2050 50  0001 C CNN "Part Number"
 	1    10000 2050
 	-1   0    0    -1  
 $EndComp
@@ -865,17 +870,6 @@ F 3 "~" H 3650 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 5DE39090
-P 4300 7150
-F 0 "H2" H 4400 7196 50  0000 L CNN
-F 1 "MountingHole" H 4400 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 4300 7150 50  0001 C CNN
-F 3 "~" H 4300 7150 50  0001 C CNN
-	1    4300 7150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR0103
 U 1 1 5DE5EF24
 P 4700 5800
@@ -916,7 +910,8 @@ P 4050 4450
 F 0 "U1" H 3800 4550 50  0000 L CNN
 F 1 "Nrf52810-QCAA" H 3800 4450 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 3600 5200 50  0001 C CNN
-F 3 "" H 3600 5200 50  0001 C CNN
+F 3 "https://br.mouser.com/datasheet/2/297/nRF52810_PB_v1.1-1146849.pdf" H 3600 5200 50  0001 C CNN
+F 4 "nRF52810-QCAA-T" H 4050 4450 50  0001 C CNN "Part Number"
 	1    4050 4450
 	1    0    0    -1  
 $EndComp
@@ -945,24 +940,14 @@ F 3 "~" H 4900 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
-U 1 1 5DEA8288
-P 6300 5500
-F 0 "#PWR0105" H 6300 5250 50  0001 C CNN
-F 1 "GND" H 6305 5327 50  0000 C CNN
-F 2 "" H 6300 5500 50  0001 C CNN
-F 3 "" H 6300 5500 50  0001 C CNN
-	1    6300 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Antenna_Chip AE1
 U 1 1 5DEA724A
 P 6200 5400
 F 0 "AE1" H 6380 5527 50  0000 L CNN
 F 1 "Antenna_Chip" H 6380 5436 50  0000 L CNN
 F 2 "sensor_ble:2450AT18B100" H 6100 5575 50  0001 C CNN
-F 3 "~" H 6100 5575 50  0001 C CNN
+F 3 "https://br.mouser.com/datasheet/2/611/johanson_2450AT18B100E-1215778.pdf" H 6100 5575 50  0001 C CNN
+F 4 "2450AT18B100" H 6200 5400 50  0001 C CNN "Part Number"
 	1    6200 5400
 	1    0    0    -1  
 $EndComp
@@ -1027,4 +1012,5 @@ Wire Wire Line
 	6000 5500 6100 5500
 Wire Wire Line
 	5450 5500 5150 5500
+NoConn ~ 6300 5500
 $EndSCHEMATC
